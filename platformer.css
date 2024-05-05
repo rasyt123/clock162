@@ -1,0 +1,66 @@
+html {
+ height: 100%;
+ width: 100%;
+}
+
+
+
+
+
+body {
+ background-image: url('broundforest.png');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+
+
+
+h1 {
+ color: white;
+ text-align: center;
+} 
+
+
+
+a {
+ margin: 20px;
+ background-color: green;
+ color: white;
+ font-size: 15px;
+ padding: 10px;
+}
+
+
+
+#character {
+ background-image: url('pixelnight.png');
+ background-size: cover;
+ background-position: center;
+}
+
+
+#coin {
+ background-image: url('truecoin.jpg');
+ background-size: cover;
+ background-position: center;
+
+}
+
+#coin1 {
+ background-image: url('truecoin.jpg');
+ background-size: cover;
+ background-position: center;
+
+}
+
+
+#enemy {
+ background-image: url('alien-magenta.png');
+ background-size: cover;
+ background-position: center;
+}
+
+
+

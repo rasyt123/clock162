@@ -1,0 +1,38 @@
+
+body {
+   background: #50C878;
+  font-family: 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+
+h1,
+h2,
+h3 {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+
+a {
+  margin: 20px;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+
+
+ol {
+  color: #AFE1AF;
+  margin: 25px;
+  font-size: 15px;
+}
+
+
+

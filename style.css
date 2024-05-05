@@ -1,0 +1,112 @@
+html {
+ height: 100%;
+ width: 100%;
+}
+
+
+
+
+body {
+ background: #50C878;
+ font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+h1,
+h2 {
+ color: white;
+ font-size: 35px;
+}
+
+
+h3 {
+ color: white;
+ font-size: 20px;
+}
+
+
+header {
+ padding: 80px;
+ background: #4CBB17;
+ text-align: center;
+}
+
+
+
+footer {
+ background-color: #4CBB17;
+ color: white;
+ text-align: center;
+ padding: 15px;
+ font-size: 14px;
+}
+
+
+
+.flex-item a {
+ margin: 20px;
+ background-color: #023020;
+ color: white;
+ font-size: 20px;
+ padding: 10px;
+}
+
+
+
+
+
+
+.flex-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center; 
+ align-items: center;
+ margin: 10px;
+ width: 100%; 
+
+}
+.flex-item {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: auto;
+ height: auto;
+}
+
+.flex-item img {
+ width: 400px;
+ height: 400px;
+ margin: 10px;
+}
+
+
+.flex-item {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: auto;
+ height: auto;
+}
+
+
+@media (max-width: 750px) {
+    .flex-container {
+      flex-direction: column;
+    }
+
+
+}
+
+
+
+#instruct {
+ background-color: #023020;
+ color: white;
+ font-size: 20px;
+ padding: 10px;
+ display: inline-block;
+ text-align: center; 
+}
+
+
+
